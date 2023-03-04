@@ -4,4 +4,5 @@ Feature: Check Visual Regression
   @javascript
   Scenario: No Screenshot Diff of Homepage
     When I open homepage
-    Then I should not see any difference
+    Then I should not see any difference on home page
+    Then I should not see any difference on new article page
